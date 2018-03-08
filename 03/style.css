@@ -1,0 +1,18 @@
+.green {
+  background-color: green;
+  height: 80vh;
+}
+
+@media (max-width: 575px) {
+  .green {
+    background-color: red;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .green {
+    background-color: blue;
+    height: 100vh;
+  }
+}
