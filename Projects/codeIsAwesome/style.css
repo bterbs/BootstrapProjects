@@ -14,10 +14,24 @@ body{
 
 h1 {
   color: white;
-  letter-spacing: 1px;
   font-size: 48px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px black;
+
 }
 
 p {
+  color: #f1f2f6;
   font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer p {
+  color: #F5F5F5;
+  font-size: 14px;
 }
