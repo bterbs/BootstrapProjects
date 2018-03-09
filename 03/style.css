@@ -6,7 +6,7 @@
 /*xs*/
 @media (max-width: 575px) {
   .green {
-    background-color: red;
+    background-color: #81eccc;
     height: 100vh;
   }
 }
