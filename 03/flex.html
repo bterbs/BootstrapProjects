@@ -15,12 +15,16 @@
 
   .blue{
     background-color: #25CCF7;
-    height: 200px;
+
   }
 
   .grey{
     background-color: #9AECDB;
-    height: 200px;
+  }
+
+  .rowHeight{
+    background-color: grey;
+    height:200px;
   }
 
   </style>
@@ -28,10 +32,10 @@
 <body>
 
 <div class="container con">
-  <div class="row">
-    <div class="col-xs-4 blue"></div>
-    <div class="col-xs-4 grey"></div>
-    <div class="col-xs-4 blue"></div>
+  <div class="row rowHeight">
+    <div class="col-xs-4 blue align-self-center">column 1</div>
+    <div class="col-xs-4 grey">column two</div>
+    <div class="col-xs-4 blue">column three</div>
   </div>
 </div>
 
